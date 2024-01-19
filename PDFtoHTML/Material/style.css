@@ -1,0 +1,18 @@
+body{
+    background-color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    color: #222222;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.space{
+    height:200px;
+}
+#table tr td + td + td { 
+    text-align: center;
+}

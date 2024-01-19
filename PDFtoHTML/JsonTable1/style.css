@@ -1,0 +1,460 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.firstpage {
+	position: relative;
+	overflow: hidden;
+	margin: 30px 0px 28px 16px;
+	padding: 0px;
+	border: none;
+	width: 815px;
+	height: 1056px;
+}
+
+.middlepage {
+	position: relative;
+	overflow: hidden;
+	margin: 30px 0px 28px 16px;
+	padding: 0px;
+	border: none;
+	width: 815px;
+	height: 1056px;
+}
+
+.transactionTable {
+	position: relative;
+	overflow: hidden;
+	margin-top: 7px;
+	padding: 0px;
+	border: none;
+	width: 735px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	background: #f8f8f8;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.dep,
+.firstpage>.transactionTable>tbody>tr:nth-child(2)>td.desc,
+.firstpage>.transactionTable>tbody>tr:nth-child(2)>td.bal {
+	font-weight: bold;
+}
+
+.ttab {
+    border-bottom: 1px solid #000;
+    height: 17px;
+}
+
+.middlepage:last-child>.transactionTable>tbody>tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	height: 15px;
+	vertical-align: top;
+	font: 12px 'Helvetica';
+}
+
+.amt,
+.bal {
+	text-align: right;
+}
+
+.bal {
+	width: 98px;
+}
+
+.amt {
+	width: 77px;
+}
+
+.date {
+	padding-right: 28px;
+	text-align: left;
+	width: 37px;
+}
+
+.desc {
+	text-align: left;
+	width: 461px;
+}
+
+.headcol {
+	font: 9px 'Arial';
+	padding-bottom: 3em;
+	font-weight: bold;
+}
+
+.headcol>td {
+	font: 9px 'Arial';
+	font-weight: bold;
+}
+
+#middletemplate {
+	display: none;
+}
+.middlepage:last-child>.transactionTable>tbody>.ttab:last-child>.bal{
+	font: bold 12px Helvetica;
+}
+.middlepage:last-child>.transactionTable>tbody>.ttab:last-child>.desc{
+	font: bold 12px Helvetica;
+	padding-left: 20px;
+}
+.middlepage:last-child>.transactionTable>tbody>.ttab:nth-last-child(2){
+	border-bottom: 2px solid #000;
+}
+.firstpage>.transactionTable>tbody>.beginingbalance_row{
+	border-bottom: none;
+}
+.firstpage>.transactionTable>tbody>.beginingbalance_row>.desc, 
+.firstpage>.transactionTable>tbody>.beginingbalance_row>.amt, 
+.firstpage>.transactionTable>tbody>.beginingbalance_row>.bal{
+	border-bottom: 1px solid #000;
+}
+
+.lastpage {
+	position: relative;
+	overflow: hidden;
+	margin: 60px 0px 28px 16px;
+	padding: 0px;
+	border: none;
+	width: 815px;
+	height: 1056px;
+}
+
+.lastpage .lastpage_content {
+	float: left;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: none;
+	width: 751px;
+	overflow: hidden;
+}
+
+.caution {
+	width: 100%;
+}
+
+.caution_title {
+	font: bold 12px 'Helvetica';
+	line-height: 14px;
+}
+
+.caution_content {
+	font: 11px 'Helvetica';
+}
+
+.cautionitem_title {
+	font: bold 12px 'Helvetica';
+}
+
+.cautionitem_text {
+	font: 12px 'Helvetica';
+}
+
+.cautionitem_desc {
+	font: italic 12px 'Helvetica';
+}
+
+.cautionbottom_text {
+	font: bold 12px 'Helvetica';
+}
+
+.conclusion {
+	width: 100%;
+}
+
+.conclusion_title {
+	font: bold 11px 'Helvetica';
+	line-height: 14px;
+}
+
+.conclusion_content {
+	font: 11px 'Helvetica';
+}
+
+.bookcover {
+	position: relative;
+	overflow: hidden;
+	margin: 30px 0px 28px 16px;
+	padding: 0px;
+	border: none;
+	width: 815px;
+	height: 1056px;
+}
+
+.bookcover .account_num {
+	border: none;
+	margin: 13px 0px 0px 0px;
+	padding: 0px;
+	border: none;
+	width: 816px;
+	overflow: hidden;
+}
+
+.bookcover .coverpage_footer {
+	border: none;
+	margin: 531px 0px 0px 623px;
+	padding: 0px;
+	border: none;
+	width: 193px;
+	overflow: hidden;
+}
+
+.bookcover .img_wrapper {
+	position: absolute;
+	top: 0px;
+	left: 78px;
+	z-index: -1;
+	width: 114px;
+	height: 22px;
+}
+
+.bookcover .img_wrapper .img {
+	width: 114px;
+	height: 22px;
+}
+
+.toptext {
+	width: 100%;
+	height: 260px;
+	font: 13px 'Arial';
+	display: flex;
+}
+
+.topleft {
+	width: 430px;
+    padding: 30px 0px 0px 20px;
+}
+
+.topleft>.serial {
+	font: 9px 'Arial';
+	margin-top: 70px;
+}
+
+.topleft>.font11 {
+	font: 11px 'Arial';
+}
+
+.topright {
+	width: 282px;
+}
+
+.daterange {
+	font: 11px 'Helvetica';
+	text-align: center;
+}
+
+.customerinfo {
+	font: bold 16px 'Arial';
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	width: 282px;
+	margin-top: 20px;
+	padding: 3px;
+}
+
+.row_accountnum {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.accountnum {
+	font: bold 13px 'Arial';
+}
+
+.totpinforow {
+	padding: 3px;
+}
+
+.topinfospan {
+	float: right;
+}
+
+.checkingsummary {
+	width: 100%;
+	height: 187px;
+	margin-bottom: 20px;
+}
+
+.summarytitle {
+	display: flex;
+}
+
+.summarysquare {
+	border: 1px solid black;
+	font: bold 19px 'Helvetica';
+	padding: 5px;
+	width: 209px;
+}
+
+.placetotalchecking {
+	width: 503px;
+	border-bottom: 1px solid black;
+	height: 26px;
+	padding-left: 10px;
+}
+
+.summarytable {
+	font: 13px 'Helvetica';
+	width: 490px;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+.summaryrow {
+	padding: 2px;
+}
+
+.summaryvalue {
+	font: 12px 'Arial';
+	float: right;
+	width: 240px;
+	text-align: right;
+}
+
+.transactiontitle {
+	display: flex;
+}
+
+.transactionsquare {
+	border: 1px solid black;
+	font: bold 19px 'Helvetica';
+	padding: 5px;
+	width: 215px;
+}
+
+.transactiontext {
+	width: 497px;
+	border-bottom: 1px solid black;
+	height: 17px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font: italic 12px 'Helvetica';
+}
+.checkspaid{
+	margin-top: 40px;
+	width: 735px;
+}
+.checkstitle{
+	display: flex;
+}
+.checkssquare{
+	border: 1px solid black;
+	font: bold 19px 'Helvetica';
+	padding: 5px;
+	width: 131px;
+}
+.checkstext{
+	width: 580px;
+	border-bottom: 1px solid black;
+	height: 17px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font: italic 12px 'Helvetica';
+}
+.checksdescription{
+	width: 715px;
+	padding: 10px 10px 30px 10px;
+	font-size: 15px;
+}
+.checkscontent{
+	display: flex;
+}
+.checkstable{
+	width: 330px;
+	text-align: left;
+	margin-top: 7px;
+}
+.checkstable:last-child{
+	margin-left: 72px;
+}
+.checksthspan{
+	font: bold 9px 'Arial';
+}
+.checkstable>tbody>tr>td{
+	font: 14px 'Helvetica';
+	border-bottom: 1px solid black;
+}
+.checkstable>tbody>tr>th:last-child{
+	text-align: right;
+}
+.checkstable>tbody>tr>td:last-child{
+	text-align: right;
+}
+.checkstable>tbody>tr:last-child>td{
+	border-bottom: none;
+}
+
+.pagenumber {
+	font: 10px 'Helvetica';
+	margin-top: 1025px;
+	text-align: right;
+	padding-right: 135px;
+}
+
+.firstpage>.pagebackground>.pagenumber {
+	margin-top: 795px;
+}
+
+.lastpage>.pagebackground>.pagenumber {
+	margin-top: 795px;
+}
+
+.pagetitle {
+	width: 245px;
+	margin-left: 450px;
+	padding: 25px 0px;
+}
+
+.title_daterange {
+	padding: 3px;
+}
+.title_accountnum{
+	font: 13px 'Arial';
+}
+.pagebackground {
+	position: absolute;
+	width: 800px;
+	height: 1056px;
+	z-index: -1;
+}
+
+.pagetop_background {
+	width: 123px;
+	height: 22px;
+	margin-left: 30px;
+}
+
+.pageright_background {
+	width: 50px;
+	height: 130px;
+	margin-left: 770px;
+	margin-top: 100px;
+	font: 8px 'Helvetica';
+	display: flex;
+}
+
+.pageright_text {
+	writing-mode: vertical-rl;
+	direction: rtl;
+}
+
+.pageright_backgrounddiv {
+	width: 35px;
+	height: 130px;
+}
+.blackmessage{
+	width: 100%;
+    text-align: center;
+    margin-top: 435px;
+}

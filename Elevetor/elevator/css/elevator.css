@@ -1,0 +1,187 @@
+#canvas {
+  font-family: sans-serif;
+  width: 100%;
+  height: 1000px;
+  background: url(http://www.pictures-croatia.com/primosten/primosten-2m6e.jpg);
+  background-size: cover;
+}
+#canvas .building-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4%;
+    width: 50%;
+}
+div#floorSelect ul {
+    margin: 0;
+    height: 1000px;
+    padding: 0;
+}
+#canvas #building {
+  width: 90%;
+  background: #594D47;
+  height: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#canvas #building #elevatorShaft {
+  background: #362E2B;
+  width: 70%;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+#canvas #building #elevatorShaft .elevatorContainer {
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  bottom: 0;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator {
+  height: 5%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: url(http://www.riversideelevators.com/img/elevator_inside.jpg);
+  background-size: 100% 100%;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator .door {
+  background: #AAA;
+  width: 49%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  transition: all 300ms ease-in;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator .door.leftDoor {
+  left: 0;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator .door.rightDoor {
+  right: 0;
+  background: #999;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator .active-right {
+  right: -50% !important;
+}
+#canvas #building #elevatorShaft .elevatorContainer #elevator .active-left {
+  left: -50% !important;
+}
+#canvas #building #elevatorShaft .elevatorContainer #strings {
+  height: 95%;
+  background: -moz-linear-gradient(left, transparent, transparent 10%, #AAA 10%, #AAA 30%, transparent 30%, transparent 40%, #CCC 40%, #CCC 60%, transparent 60%, transparent 70%, #999 70%, #999 90%, transparent 90%, transparent);
+  width: 75%;
+  margin: 0 auto;
+}
+#canvas #floorSelect {
+  text-align: center;
+  background: #FFF;
+  width: 40%;
+  box-shadow: 0 0 5px #362E2B;
+}
+#canvas #floorSelect ul li {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  transition: all 300ms;
+  list-style: none
+}
+#canvas #floorSelect ul li:hover {
+  background: #656565;
+  color: #FFF;
+  cursor: pointer;
+  transition: all 300ms;
+}
+#canvas #floorSelect h4 {
+  margin: 20px 0 10px;
+}
+#canvas p {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin: 0 10%;
+  color: #FFF;
+}
+
+
+
+.floor-title h1 {
+    position: absolute;
+    transform: rotate( 
+-90deg
+ ) scaleX(-1);
+    transform-origin: left;
+    font-size: 54px;
+    width: max-content;
+    display: block;
+    color: #7e7e7e59;
+    letter-spacing: 5px;
+    top: 300px;
+    left: -56px;
+}
+
+.floor-title {
+    transform: scaleX(-1);
+}
+
+#canvas #floorSelect {
+    background: #9bc8d6;
+    
+}
+
+
+div#floorSelect {
+    position: relative;
+}
+
+div#floorSelect:after {
+    position: absolute;
+    content: "";
+    top: -45px;
+    width: 58%;
+    height: 35px;
+    background-color: #ac4256f2;
+    right: 0;
+    left: 0;
+    border: 7px solid #9bc8d6;
+    margin: 0 auto;
+}
+#canvas .building-container {
+  
+    margin-left: auto;
+}
+
+#canvas #floorSelect ul li:after {
+    content: "";
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    height: 1px;
+}
+#canvas #floorSelect ul li {
+    position: relative;
+}
+div#canvas {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+    margin-top: 80px;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+div#floorSelect:before {
+    content: "";
+    background-image: url(tree.png);
+    position: absolute;
+    height: 400px;
+    bottom: 0;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: -101%;
+}

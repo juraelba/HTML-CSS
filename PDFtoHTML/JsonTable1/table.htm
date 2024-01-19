@@ -1,0 +1,265 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=8">
+      <title>Place Place Bank, N.A. Member FDIC</title>
+      <meta name="generator" content="BCL easyConverter SDK 5.0.140"/>
+      <link rel="stylesheet" href="style.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+   </head>
+   <body>
+      <div class="pages" id="pages">
+         <div class="firstpage">
+            <div class="pagebackground">
+               <div class="pagetop_background">
+                  <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+               </div>
+               <div class=pageright_background>
+                  <div class="pageright_backgrounddiv">
+                     <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+                  </div>
+                  <div class="pageright_text">00648290301000000033</div>
+               </div>
+               <div class="pagenumber"></div>
+            </div>
+            <div class="toptext">
+               <div class="topleft">
+                  <div class="font11">Place Place Bank, N.A.</div>
+                  <div class="font11">P O Box 398424</div>
+                  <div class="font11">Columbus, OH 79372- 2051</div>
+                  <div id="serial" class="serial">00010959 DRE 802 141 16319 NNNNNNNNNNN 1 000000000 07 0000</div>
+                  <div id="fullname"></div>
+                  <div id="address1"></div>
+                  <div id="address2"></div>
+               </div>
+               <div class=topright>
+                  <div id="daterange" class="daterange"></div>
+                  <div class="row_accountnum">Account Number: <span class="accountnum"></span></div>
+                  <div class="customerinfo">CUSTOMER SERVICE INFORMATION</div>
+                  <div class="totpinforow">Web Site: 
+                     <span class="topinfospan">Place.com</span></div>
+                  <div class="totpinforow">Service Center: 
+                     <span class="topinfospan">1-000-000-0000</span></div>
+                  <div class="totpinforow">Deaf and Hard of Hearing: 
+                     <span class="topinfospan">1-000-000-0000</span></div>
+                  <div class="totpinforow">Para Espanol: 
+                     <span class="topinfospan">1-000-000-0000</span></div>
+                  <div class="totpinforow">International Calls: 
+                     <span class="topinfospan">1-000-000-0000</span></div>
+               </div>
+            </div>
+            <div class="checkingsummary">
+               <div class="summarytitle">
+                  <div class="summarysquare">CHECKING SUMMARY</div>
+                  <div class="placetotalchecking">Place Total Checking</div>
+               </div>
+               <div class="summarytable">
+                  <div class="summaryrow">
+                     &nbsp;<span class="summaryvalue" style="font-weight: bold;">AMOUNT</span>
+                  </div>
+                  <div class="summaryrow beginningbalance" style="font: bold 12px 'Helvetica';">
+                     Beginning Balance<span class="summaryvalue" id="beginningbalance" style="font-weight: bold;"></span>
+                  </div>
+                  <div class="summaryrow depositsnadditions">
+                     Deposits and Additions<span class="summaryvalue" id="depositsnadditions"></span>
+                  </div>
+                  <div class="summaryrow atmndebitwithdrawls">
+                     ATM & Debit Card Withdrawals<span class="summaryvalue" id="atmndebitwithdrawls"></span>
+                  </div>
+                  <div class="summaryrow electronicwithdrawls">
+                     Electronic Withdrawals<span class="summaryvalue" id="electronicwithdrawls"></span>
+                  </div>
+                  <div class="summaryrow checks">
+                     Checks<span class="summaryvalue" id="checks"></span>
+                  </div>
+                  <div class="summaryrow fees">
+                     Fees<span class="summaryvalue" id="fees" style="border-bottom: 1px solid black;
+                     padding-bottom: 3px;"></span>
+                  </div>
+                  <div class="summaryrow" style="font: bold 12px 'Helvetica';">
+                     Ending Balance<span class="summaryvalue" id="endingbalance" style="font-weight: bold;"></span>
+                  </div>
+               </div>
+            </div>
+            <!-- Checks -->
+            <div class="checkspaid">
+               <div class="checkstitle">
+                  <div class="checkssquare">CHECKS PAID</div>
+                  <div class="checkstext"></div>
+               </div>
+               <div class="checkscontent">
+                  <table class='checkstable'>
+                     <tr class='checksheader'>
+                        <th class='checknumber'><span class="checksthspan">CHECK<br>NUMBER</span></th>
+                        <th class='datepaid'><span class="checksthspan">DATE<br>PAID</span></th>
+                        <th class='amount'><span class="checksthspan">AMOUNT</span></th>
+                     </tr>
+                  </table>
+                  <table class='checkstable'>
+                     <tr class='checksheader'>
+                        <th class='checknumber'><span class="checksthspan">CHECK<br>NUMBER</span></th>
+                        <th class='datepaid'><span class="checksthspan">DATE<br>PAID</span></th>
+                        <th class='amount'><span class="checksthspan">AMOUNT</span></th>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="div_totalchecks" style="width: 735px;text-align: right;font: bold 15px 'Helvetica';border-top: 2px solid black;">
+               Total Checks Paid <span id="totalpaid" style="padding-left: 70px;">$8531.59</span>
+            </div>
+            <div class="checksdescription">
+               <div>
+                  If you see a check description in the Transaction Detail section, it means your check has already been converted for electronic payment. Because of this, we're not able to return the checkto you or show you an image on Chase.com.
+               </div>
+               <div style="padding: 5px 0px;">
+                  *All of your recent checks may not be on this statement, either because they haven't cleared yet or they were listed on one of your previous statements.
+               </div>
+               <div>
+                  ^An image of this check may be available for you to view on Chase.com
+               </div>
+            </div>
+            <!-- Transaction -->
+            <div class="transactiontitle">
+               <div class="transactionsquare">TRANSACTION DETAIL</div>
+               <div class="transactiontext"></div>
+            </div>
+            
+            <table class='transactionTable'>
+               <tr class='headcol'>
+                  <th class='date'>DATE</th>
+                  <th class='desc'>DESCRIPTION</th>
+                  <th class='amt'>AMOUNT</th>
+                  <th class='bal'>BALANCE</th>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <!-- Conclusion Page -->
+      <div class="lastpage">
+         <div class="pagebackground">
+            <div class="pagetop_background">
+               <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+            </div>
+            <div class=pageright_background>
+               <div class="pageright_backgrounddiv">
+                  <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+               </div>
+               <div class="pageright_text">00648290301000000033</div>
+            </div>
+            <div class="pagenumber"></div>
+         </div>
+
+         <div class="lastpage_content">
+            <div class="pagetitle">
+               <div class="title_daterange daterange"></div>
+               <div class="title_accountnum">Account Number: <span class="accountnum"></span></div>
+            </div>
+            <div class="caution">
+               <span class="caution_title">
+                  WANT TO AVOID PAYING A MONTHLY SERVICE FEE ON YOUR CHECKING ACCOUNT?
+               </span>
+               <span class="caution_content">
+                  <br>A monthly Service Fee was charged to your Place Total Checking account. Here are the three ways you can avoid this 
+                  <br>fee during any statement period.
+               </span>
+               <div>
+                  <ul>
+                     <li>
+                        <span class="cautionitem_title">Have direct deposits totaling $500.00 or more.</span>
+                        <br><span class="cautionitem_text">(Your total direct deposits this period were $469.68. Note: some deposits may be listed on your previous statement)</span>
+                     </li>
+                     <li>
+                        <span class="cautionitem_title">OR, keep a minimum daily balance in this checking account of $1,500.00 or more.</span>
+                        <br><span class="cautionitem_text">(Your minimum daily balance was $103.26)</span>
+                     </li>
+                     <li>
+                        <span class="cautionitem_title">OR, keep an average daily balance of qualifying linked deposits and investments of $5,000.00 or more.</span>
+                        <br><span class="cautionitem_text">(Your average daily balance of qualifying linked deposits and investments was $570.59)</span>
+                        <br><span class="cautionitem_desc">Talk to a banker about transferring your balances to Place today!</span>
+                     </li>
+                  </ul>
+               </div>
+               <p class="cautionbottom_text">Stop in today and explore all Place has to offer.</p>
+            </div>
+            <div style="width: 700px;float: left;border-top: 1px solid black;"></div>
+            <div class="conclusion">
+               <p>
+                  <span class="conclusion_title">IN CASE OF ERRORS OR QUESTIONS ABOUT YOUR ELECTRONIC FUNDS TRANSFERS: </span>
+                  <span class="conclusion_content">
+                     Call us at 1-866-564-2262 or write us at the
+                     <br>address on the front of this statement (non-personal accounts contact Customer Service) immediately if you think your statement or receipt is
+                     <br>incorrect or if you need more information about a transfer listed on the statement or receipt.
+                     <br>For personal accounts only: We must hear from you no later than 60 days after we sent you the FIRST statement on which the problem or error:
+                     <br>appeared. Be prepared to give us the following information
+                     <br><span style="margin-left: 20px;padding: 0px 10px;">&#07;</span>Your name and account number
+                     <br><span style="margin-left: 20px;padding: 0px 10px;">&#07;</span>The dollar amount of the suspected error
+                     <br><span style="margin-left: 20px;padding: 0px 10px;">&#07;</span>A description of the error or transfer you are unsure of, why you believe it is an error, or why you need more information.
+                     <br>We will investigate your complaint and will correct any error promptly. If we take more than 10 business days (or 20 business days for new
+                     <br> accounts) to do this, we will credit your account for the amount you think is in error so that you will have use of the money during the time it takes
+                     <br> us to complete our investigation.
+                  </span>
+                  <p></p>
+                  <span class="conclusion_title">IN CASE OF ERRORS OR QUESTIONS ABOUT NON-ELECTRONIC TRANSACTIONS: </span>
+                  <span class="conclusion_content">
+                     Contact the bank immediately if your statement is
+                     <br> incorrect or if you need more information about any non-electronic  transactions (checks or deposits) on this statement. If any such error appears, 
+                     <br> you must notify the bank in writing no later than 30 days after the statement was made available to you. For more complete details, see the 
+                     <br> Account Rules and Regulations or other applicable account agreement that governs your account. Deposit products and services are offered by 
+                     <br> Place Place Bank, N.A. Member FDIC
+                  </span>
+               </p>
+               <p style="font: bold 11px 'Helvetica';padding-left: 480px;">
+                  Place Place Bank, N.A. Member FDIC
+               </p>
+            </div>
+            <div style="width: 700px;float: left;border-top: 1px solid black;"></div>
+         </div>
+      </div>
+      <!-- Page for cover -->
+      <div class="bookcover">
+         <div class="pagebackground">
+            <div class="pagetop_background">
+               <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+            </div>
+            <div class="pagenumber"></div>
+         </div>
+         <div class="pagetitle">
+            <div class="title_daterange daterange"></div>
+            <div class="title_accountnum">Account Number: <span class="accountnum"></span></div>
+         </div>
+         <div class="blackmessage">
+            This Page Intentionally Left Blank
+         </div>
+      </div>
+
+      <!-- Templates for middle pages -->
+      <div id="middletemplate">
+         <div class="middlepage">
+            <div class="pagebackground">
+               <div class="pagetop_background">
+                  <img style="width: 100%; height: 100%;" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCUgLC//9k=">
+               </div>
+               <div class="pagenumber"></div>
+            </div>
+            <div class="pagetitle">
+               <div class="title_daterange daterange"></div>
+               <div class="title_accountnum">Account Number: <span class="accountnum"></span></div>
+            </div>
+            <div class="transactiontitle">
+               <div class="transactionsquare">TRANSACTION DETAIL</div>
+               <div class="transactiontext">(continued)</div>
+            </div>
+            <table class='transactionTable'>
+               <tr class='headcol'>
+                  <th class='date'>DATE</th>
+                  <th class='desc'>DESCRIPTION</th>
+                  <th class='amt'>AMOUNT</th>
+                  <th class='bal'>BALANCE</th>
+               </tr>
+            </table>
+         </div>
+      </div>
+   </body>
+</html>
